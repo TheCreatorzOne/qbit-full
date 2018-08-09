@@ -4,7 +4,7 @@ MAINTAINER TheCreatorzOne
 RUN useradd -m -d /qbittorrent qbittorrent && \
     apt-get update -y && \
     apt-get -y install software-properties-common && \
-    add-apt-repository ppa:qbittorrent-team/qbittorrent-unstable && \
+    add-apt-repository ppa:qbittorrent-team/qbittorrent-stable && \
     apt-get update -y && \
     apt-get install -y qbittorrent-nox && \
     apt-get install -y unrar && \
